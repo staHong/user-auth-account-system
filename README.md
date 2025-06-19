@@ -54,11 +54,11 @@ redis-server.exe 실행
 ./gradlew bootRun
 ✅ 또는 JAR 파일 실행
 
-java -jar build/libs/niflers-0.0.1-SNAPSHOT.jar
+java -jar build/libs/auth-0.0.1-SNAPSHOT.jar
 ✅ Docker로 실행하는 경우 (선택 사항)
 
-docker build -t niflers-app .
-docker run -p 8080:8080 --name niflers-app -d niflers-app
+docker build -t auth-app .
+docker run -p 8080:8080 --name auth-app -d auth-app
 📌 8080 포트에서 서버가 실행됨 → 브라우저에서 확인
 
 http://localhost:8080
