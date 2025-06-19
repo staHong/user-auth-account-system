@@ -144,7 +144,6 @@ DB: PostgreSQL + Spring Data JPA
 ## 6. 개발 시 유의 사항
 
 ✔ 환경 변수 사용:
-
 비밀번호, JWT Secret Key 등의 민감한 정보는 .env 파일 또는 환경 변수로 관리하는 것이 보안상 안전합니다.
 ✔ 데이터베이스 설정:
 
